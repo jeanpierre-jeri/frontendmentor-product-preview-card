@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Product preview card component</title>
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-cream grid place-items-center min-h-screen p-4">
+    <main class="bg-white overflow-hidden rounded-lg md:flex md:items-center">
+      <picture class="max-w-xs">
+        <source media="(min-width: 768px)" srcset="/image-product-desktop.jpg" />
+        <img src="/image-product-mobile.jpg" alt="Product Image" />
+      </picture>
+      <div class="p-6 md:px-8 md:py-0 md:max-w-[18rem]">
+        <h2 class="uppercase text-grayish-blue font-montserrat font-medium text-xs tracking-[.5em]">Perfume</h2>
+        <h1 class="text-dark-blue font-fraunces font-bold text-3xl mt-2 md:mt-4">Gabrielle Essence Eau De Parfum</h1>
+        <p class="text-sm text-grayish-blue font-montserrat mt-4 font-medium md:mt-5">
+          A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of
+          CHANEL.
+        </p>
+        <p class="text-dark-cyan font-fraunces text-3xl mt-6 flex items-center gap-4 md:mt-8">
+          $149.99
+          <small class="text-grayish-blue text-sm font-montserrat line-through">$169.99</small>
+        </p>
+        <button
+          class="bg-dark-cyan flex items-center gap-2 w-full justify-center text-white rounded-md py-3 mt-4 font-montserrat font-bold md:mt-7 hover:bg-dark-green transition-colors"
+          type="button"
+        >
+          <i><img src="/icon-cart.svg" alt="Cart icon" /></i>
+          Add to Cart
+        </button>
+      </div>
+    </main>
+
+    <div class="text-xs text-center">
+      Challenge by
+      <a class="text-blue-900" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a class="text-blue-900" href="https://github.com/jeanpierre-jeri" target="_blank">Jean Pierre Jeri</a>.
+    </div>
+  </body>
+</html>
