@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [See solution live](https://jeanpierre-frontendmentor-product.netlify.app/)
+- Solution URL: [Click here](https://jeanpierre-frontendmentor-product.netlify.app/)
 
 ## Author
 
